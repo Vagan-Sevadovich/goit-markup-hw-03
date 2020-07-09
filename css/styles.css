@@ -1,0 +1,243 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #212121;
+}
+.current{
+    color: #2196F3;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+/* шапка сайта*/
+.logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-web{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.nav-list-link{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus{
+    color: #2196F3
+}
+.current{
+    color: #2196F3;
+}
+.header-mail{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-tel{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+
+}
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus{
+    color: #2196F3
+}
+/*Титульная*/
+.title-name{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.modal-btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.modal-btn:hover,
+.modal-btn:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+/* преимущества компани */
+.sucsses-company-list-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.sucsses-company-list-title-p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*Чем мы занимаемся*/
+.we-do{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.we-do-list-item-h3{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/*Наша команда*/
+
+.team-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-title-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.team-title-p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*Постояные клиенты*/
+.clients-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*footer*/
+.footer-logo-web{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.footer-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-adress-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress-item1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.connected{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* portfolio.html*/
+/* фильтр услуг*/
+.filter-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.filter-list-btn{
+    font-weight: 500;
+}
+.filter-list-btn:hover,
+.filter-list-btn:focus{
+    background-color: #2196F3;
+    color: #ffffff;
+}
+/*список услуг*/
+.services-list-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0.05;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.services-list-title-p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
