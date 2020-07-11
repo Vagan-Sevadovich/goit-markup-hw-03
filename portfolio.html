@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
+    <header class="header container">
         <!---шапка сайта-->
-        <nav class="nav">
+        <nav class="nav main-nav">
             <a class="logo link" href="index.html"> <span class="logo-web">Web</span> Studio</a>
-            <ul class="nav-element list">
+            <ul class="nav-element list ul-padding-non">
                 <li class="nav-list-item">
-                    <a class="nav-list-link link" href="index.html">Студия</a>
+                    <a class="nav-list-link link " href="index.html">Студия</a>
                 </li>
                 <li class="nav-list-item">
                     <a class="nav-list-link link current" href="portfolio.html">Портфолио</a>
@@ -24,17 +24,15 @@
                     <a class="nav-list-link link" href="index.html">Контакты</a>
                 </li>
             </ul>
-        </nav>
-        <div>
             <address class="header-adress">
-            <a class="header-mail link" href="info@devstudio.com">info@devstudio.com</a>
-            <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="header-mail link" href="info@devstudio.com">info@devstudio.com</a>
+                <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
             </address>
-        </div>
+        </nav>
     </header>
     <main>
         <!--Фильтр услуг-->
-        <section>
+        <section class="filter-section container">
             <h1 hidden>список услуг</h1>
             <ul class="filter-item list">
                 <li class="filter-list"><button class="filter-list-btn">Все</button></li>
@@ -44,7 +42,7 @@
                 <li class="filter-list"><button class="filter-list-btn">Маркетинг</button></li>
             </ul>
             <!--Список услуг-->
-            <ul class="services-list list">
+            <ul class="services-list list container">
                 <li class="services-list-item">
                     <a class="services-a link" href=""><img src="./images/portfolio-filters/img-10.jpg" width="370px" alt="Фото технокряк"> 
                         <h2 class="services-list-title">Технокряк</h2>
@@ -102,11 +100,11 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <div>
+    <footer class="footer-list container">
+        <div class="footer-div ">
             <a class="footer-logo link" href="index.html"> <span class="footer-logo-web">Web</span>  Studio</a>
             <address>
-                <ul class="footer-adress-list list">
+                <ul class="footer-adress-list list ul-padding-non">
                     <li > <a class="footer-adress-item1 link" href="">г. Киев, пр-т Леси Украинки, 26</a> </li>
                     <li > <a class="footer-adress-item link" href="mailto:info@example.com">info@example.com</a></li>
                     <li > <a class="footer-adress-item link" href="tel:+380991111111"> +38 099 111 11 11</a></li>
@@ -115,7 +113,7 @@
         </div>
         <div>
             <p class="connected">ПРИСОЕДИНЯЙТЕСЬ</p>
-            <ul class="connected-list list">
+            <ul class="connected-list list ul-padding-non">
                 <li>
                     <a href="" aria-label=" иконка инстаграмма"></a>
                 </li>
