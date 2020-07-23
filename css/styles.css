@@ -1,12 +1,23 @@
 body {
+
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #212121;
 }
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 .ul-padding-non{    
     padding-inline-start: 0;
     padding: 0;
+    margin-top: 0;
 }
 .current{
     color: #2196F3;
@@ -34,6 +45,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+    padding-top: 24px;
 }
 .logo-web{
     font-family: Raleway;
@@ -48,7 +60,7 @@ body {
     margin-right: 85px;
 }
 .nav{
-    margin-bottom: 93px;
+    margin-bottom: 94px;
 }
 .nav-list-link{
     font-style: normal;
@@ -72,6 +84,7 @@ body {
 .nav-element{
     display: flex;
     padding-inline-start: 0;
+    margin-bottom: 0;
 
 }
 .nav-element li:not(:last-child){
@@ -85,7 +98,9 @@ body {
 }
 .main-nav{
     display: flex;
-    align-items: center ;
+    align-items: baseline;
+
+
 }
 
 .header-mail{
@@ -121,14 +136,14 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #df924bb9;
     padding-top: 200px;
-    padding-bottom: 30px;
+    margin-top: 0;
 }
 .hero-section{
     text-align: center;
     justify-content: center;
-    background-color: #757575;
+    margin-bottom: 200px;
 }
 
 .modal-btn{
@@ -146,8 +161,7 @@ body {
 .modal-btn1{
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 200px;   
+    margin-right: auto; 
 }
 
 .modal-btn:hover,
@@ -155,14 +169,29 @@ body {
     background-color: #2196F3;
     color: #FFFFFF;
 }
-/* преимущества компани */
+/* О Нас */
+.about-us{
+    margin-bottom: 94px;
+}
+.block-container{
+    width: 270px;
+    height: 120px;
+    left: 215px;
+    top: 774px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin: 0;
+    margin-bottom: 30px;
+}
 .sucsses-company li:not(:last-child){
     margin-right: 30px;
-    margin-bottom: 52px;
+    margin-bottom: 0;
 }
 
 .sucsses-company{
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .sucsses-company-list-title{
     font-weight: bold;
@@ -171,6 +200,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .sucsses-company-list-title-p{
     font-weight: normal;
@@ -178,8 +209,13 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /*Чем мы занимаемся*/
+.what-we-do{
+    margin-bottom: 94px;
+}
 .we-do{
     font-weight: bold;
     font-size: 36px;
@@ -188,6 +224,7 @@ body {
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 .we-do-list-item-h3{
     font-weight: bold;
@@ -196,7 +233,9 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #0e0d0d;
+    margin-top: 27px;
+    margin-bottom: 27px;
 }
 .we-do-list{
     display: flex;
@@ -208,13 +247,23 @@ body {
 
 }
 /*Наша команда*/
+.team-item-list{
+    display: flex; 
+    justify-content: center;
+}
+.team-item-list li{
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: crimson;
+}
 .team-item{
     display: flex;
     margin-bottom: 94px;
     justify-content: center;
 }
 .team-item li:not(:last-child){
-    margin-right: 30px;
+    margin-right: 10px;
 }
 .team-title{
     font-weight: bold;
@@ -223,7 +272,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-    margin-top: 94px;
+    margin-top: 0;
 }
 .team-title-name{
     font-weight: 500;
@@ -231,7 +280,12 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin: 0;
+    margin-bottom: 10px;
 
+}
+.team-photo{
+    margin-bottom: 30px;
 }
 .team-title-p{
     font-weight: normal;
@@ -240,15 +294,34 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin: 0;
+    margin-bottom: 16px;
 }
 /*Постояные клиенты*/
+.clients-section{
+    margin-bottom: 94px;
+}
+.clients-title{
+    margin-top: 0;
+}
 .clients-title-item{
     display: flex;
-    margin-bottom: 94px;
     justify-content: center;
+    margin-bottom: 0;
+}
+.clients-title-item a{
+    display: block;
 }
 .clients-title-item li:not(:last-child){
     margin-right: 30px;
+
+}
+.clients-title-item li{
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
 }
 .clients-title{
     font-weight: bold;
@@ -259,9 +332,13 @@ body {
     margin-bottom: 50px;
 }
 /*footer*/
+.footer-list-div{
+    display: flex;
+}
 .footer-list{
     background: #2F303A;
-    display: flex;
+}
+.footer-div {
     align-items: baseline;
     justify-content: flex-start
 }
@@ -311,7 +388,27 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-left: 69px;
+    margin-bottom: 20px;
+    padding-top: 72px;
+    margin-top: 0;
+    text-align: left;
+}
+.connected-list li{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border: coral;
+}
+.connected-list{
+    display: flex;
+}
+.connected-div{
+    display: inline-block;
+    text-align: center;
+    margin-left: 69px;
+}
+.connect-container{
+    display: flex;
 }
 .footer-adress-list{
     padding-bottom: 60px;
@@ -321,6 +418,8 @@ body {
 .filter-item{
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 .filter-item li:not(:last-child){
     margin-right: 8px;
