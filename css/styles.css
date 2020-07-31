@@ -17,7 +17,6 @@ html {
 .ul-padding-non{    
     padding-inline-start: 0;
     padding: 0;
-    margin-top: 0;
 }
 .current{
     color: #2196F3;
@@ -29,7 +28,7 @@ html {
     list-style: none;
 }
 .container{
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -180,14 +179,19 @@ html {
 /* О Нас */
 .about-us-div{
     padding-bottom: 94px;
-    padding-top: 23px;
+    padding-top: 94px;
 }
 .block-container{
+    display: inline-block;
     width: 270px;
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
+}
+.sucsses-company-list{
+    width: 270px;
+    height: 251px;
 }
 .sucsses-company-list:not(:last-child){
     margin-right: 30px;
@@ -195,9 +199,12 @@ html {
 }
 
 .sucsses-company{
+    width: 1170px;
+    height: 251px;
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sucsses-company-list-title{
     font-weight: bold;
@@ -221,6 +228,7 @@ html {
 /*Чем мы занимаемся*/
 .we-do-list-item img{
     display: block;
+    margin-bottom: 27px;
 }
 .we-do{
     font-weight: bold;
@@ -233,6 +241,7 @@ html {
     margin-top: 0;
 }
 .what-we-do-div{
+    width: 1200px;
     padding-bottom: 94px;
 }
 .we-do-list-item-h3{
@@ -243,13 +252,12 @@ html {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #0e0d0d;
-    margin-top: 27px;
-    margin-bottom: 27px;
+    margin: 0;
 }
 .we-do-list{
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: auto;
 }
 .we-do-list li:not(:last-child){
     margin-right: 30px;
@@ -267,18 +275,25 @@ html {
     background-color: crimson;
 }
 .team-item{
+    width: 1170px;
+    height: 422px;
     display: flex;
-    justify-content: center;
-    margin: 0;
+    margin: auto
 }
-.team-item li:not(:last-child){
+.team-item-list li:not(:last-child){
     margin-right: 10px;
+   
 }
 .team-item-list-first{
+    width: 270px;
+    height: 422px;
     background: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 24px;
+    
+}
+.team-item-list-first:not(:last-child){
+    margin-right: 30px;
 }
 .team-item-list-first img{
     display: block;
@@ -482,6 +497,11 @@ html {
     
 }
 .filter-list-btn{
+    font-size: 16px;
+    line-height: 0.61;
+    text-align: center;
+    letter-spacing: 0.03em;
+    height: 38px;
     font-weight: 500;
     padding-left: 22px;
     padding-right: 22px;
@@ -498,16 +518,15 @@ html {
 /*список услуг*/
 .services-a img{
     display: block;
+    width: 369px;
 }
 .filter-section-div{
     padding-top: 94px;
     padding-bottom: 94px;
 }
 .services-list-item{
-    width: 371px;
-    height: 387px;
-    left: 615px;
-    top: 262px;
+    width: 370px;
+    height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
@@ -517,7 +536,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 0;
+    margin: 0;
 }
 .services-list li:nth-last-child(-n + 3){
     margin-bottom: 0;
@@ -534,7 +553,6 @@ html {
 .services-list-title{
     font-weight: bold;
     font-size: 18px;
-    line-height: 0.05;
     letter-spacing: 0.06em;
     color: #212121;
     margin: 0;
