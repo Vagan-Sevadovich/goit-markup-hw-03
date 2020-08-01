@@ -44,7 +44,7 @@ html {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-    padding-top: 24px;
+    padding-top: 23px;
 }
 .logo-web{
     font-family: Raleway;
@@ -81,6 +81,7 @@ html {
     display: flex;
     padding-inline-start: 0;
     margin-bottom: 0;
+    margin-top: 0;
 
 }
 .nav-element li:not(:last-child){
@@ -90,7 +91,8 @@ html {
     margin-right: 30px;
 }
 .header-adress{
-    margin-left: 331px;
+    margin-left: 301px;
+    display: flex;
 }
 .main-nav{
     display: flex;
@@ -188,23 +190,15 @@ html {
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-}
-.sucsses-company-list{
-    width: 270px;
-    height: 251px;
-}
+}   
 .sucsses-company-list:not(:last-child){
     margin-right: 30px;
     margin-bottom: 0;
 }
 
 .sucsses-company{
-    width: 1170px;
-    height: 251px;
     display: flex;
     margin: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
 .sucsses-company-list-title{
     font-weight: bold;
@@ -228,7 +222,6 @@ html {
 /*Чем мы занимаемся*/
 .we-do-list-item img{
     display: block;
-    margin-bottom: 27px;
 }
 .we-do{
     font-weight: bold;
@@ -253,6 +246,8 @@ html {
     text-transform: uppercase;
     color: #0e0d0d;
     margin: 0;
+    padding: 27px 27px;
+    
 }
 .we-do-list{
     display: flex;
@@ -267,6 +262,7 @@ html {
 .team-item-list{
     display: flex; 
     justify-content: center;
+    padding-bottom: 24px;
 }
 .team-item-list li{
     display: block;
@@ -275,10 +271,8 @@ html {
     background-color: crimson;
 }
 .team-item{
-    width: 1170px;
-    height: 422px;
     display: flex;
-    margin: auto
+    margin: 0;
 }
 .team-item-list li:not(:last-child){
     margin-right: 10px;
@@ -286,7 +280,6 @@ html {
 }
 .team-item-list-first{
     width: 270px;
-    height: 422px;
     background: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
@@ -349,6 +342,9 @@ html {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+}
+.clients-title-item img{
+    display: block;
 }
 .clients-title-item a{
     display: block;
@@ -526,7 +522,6 @@ html {
 }
 .services-list-item{
     width: 370px;
-    height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
@@ -569,8 +564,21 @@ html {
     margin: 0;
 }
 .services-text{
-padding-left: 24px;
-padding-right: 24px;
-padding-top: 20px;
-padding-bottom: 20px;
+padding: 20px 20px 24px 24px;
+}
+/* спрайты */
+.header-mail{
+    display: flex;
+    align-items: center;
+    
+}
+.header-icon{
+    width: 16px;
+    height: 11px;
+    margin-right: 10px;
+    
+}
+.about-us-icon{
+display: block;
+justify-content: center;
 }
